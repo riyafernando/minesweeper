@@ -101,6 +101,7 @@ class MineGrid:
             for i in self.cells:
                 if i.check_exposed():
                     self.exposed_cells += i.coords
+                
 
 
     def get_cells(self):
@@ -111,10 +112,10 @@ class MineGrid:
 
     def auto_expose(self):
         for i in self.exposed_cells:
-            print('sdfdsdfs')
+            pass
 
     def mark_button(self):
-        print("sigh")
+        pass
 
 
 
